@@ -112,8 +112,7 @@ student = {
     "name": "Chinedu",
     "age": 19,
     "department": "Engineering",
-    "subjects": ["Maths", "Physics", "Chemistry"],
-    "is_full_time": True
+    "subjects": ["Maths", "Physics", "Chemistry"],    "is_full_time": True
 }
 
 print(f"Name: {student['name']}")
