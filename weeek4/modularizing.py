@@ -336,13 +336,13 @@
 #b. keyword argument(dictionary)
 # collects extra keyword arguments into a dictionary.
 # think of it like a labeled container where each item has a name tag.
-def student_details(**kwargs):
-    for key, value in kwargs.items():
-        print(key, ":", value)
+# def student_details(**kwargs):
+#     for key, value in kwargs.items():
+#         print(key, ":", value)
 
 
-# function call - Take note of the output
-student_details(name="Peter", track = "AI Engineering", interest="Block Chain")
+# # function call - Take note of the output
+# student_details(name="Peter", track = "AI Engineering", interest="Block Chain")
 
 # lets implement on full code
 
